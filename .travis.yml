@@ -39,6 +39,7 @@ deploy:
       condition: $TAGGED_RELEASE = true
 
   # Deploy release to CurseForge
+  # removed entirely to avoid any whoopsies
   #- provider: script
   #  edge: true
   #  skip_cleanup: true
