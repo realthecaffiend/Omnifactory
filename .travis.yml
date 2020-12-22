@@ -1,7 +1,7 @@
 # Only the main branch and tags
 branches:
   only:
-    - dev
+    - devupdated
     - /^v\d+\.\d+\.\d+.*$/
 
 cache:
