@@ -60,5 +60,5 @@ deploy:
       - ./build/$CLIENT_ARCHIVE.zip
       - ./build/lang.zip
     on:
-      branch: dev
+      branch: devupdated
       condition: $TAGGED_RELEASE = false
