@@ -121,22 +121,8 @@
                 "type" : "openLink",
                 "link" : "https://discord.gg/jEEq7u5"
             }
-        },
-        "akliz":
-        {
-            "text" : "Rent Your Own Omnifactory Server!",
-            "posX" : 4,
-            "posY" : 50,
-            "width" : 240,
-            "height" : 20,
-            "alignment" : "left_center",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://www.akliz.net/manage/aff.php?aff=266"
-            }
         }
-    },
+    },    
     "labels":
     {        
         
