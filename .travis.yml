@@ -39,13 +39,13 @@ deploy:
       condition: $TAGGED_RELEASE = true
 
   # Deploy release to CurseForge
-  - provider: script
-    edge: true
-    skip_cleanup: true
-    script: cd ./buildtools && npx gulp deployCurseForge && cd ../
-    on:
-      tags: true
-      condition: $TAGGED_RELEASE = true
+  #- provider: script
+  #  edge: true
+  #  skip_cleanup: true
+  #  script: cd ./buildtools && npx gulp deployCurseForge && cd ../
+  #  on:
+  #    tags: true
+  #    condition: $TAGGED_RELEASE = true
 
   # Deploy pre-release
   - provider: releases
